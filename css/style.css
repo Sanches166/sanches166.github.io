@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'ClashDisplay-Semibold';
+  src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
+        url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+        font-weight: 700;
+        font-display: swap;
+        font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'ClashDisplay-Semibold';
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  
+
+  background-color: #000000;
+  background-image: url(/assets/background.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation,
+.user-navigation{
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a{
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus{
+  color: #b43afa;
+}
+
+
+.section-width{
+  width: 80%;
+}
