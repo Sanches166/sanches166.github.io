@@ -8,9 +8,10 @@
 </head>
 <body>
     <div>
-        <header>
+        <header class="header">
+            <div class="user-navigation"><a href="#">Am.</a></div>
             <nav class="main-navigation">
-                <ul class="user-navigation"><li><a href="#">Am.</a></li></ul>
+                <!-- <ul class="user-navigation"><li><a href="#">Am.</a></li></ul> -->
                 <ul class="site-navigation">
                     <li><a href="/#home"><span>HOME</span></a></li>
                     <li><a href="/#projects"><span>PROJECTS</span></a></li>
@@ -19,24 +20,24 @@
                 </ul>
             </nav>
         </header>
-        <main class="section-width">
+        <main class="main">
             <!-- 1 secction about me -->
-            <section id="hero" class="developer"> 
-                <h1>
-                    <span>Hi
+            <section id="home" class="first-section p_150"> 
+                <h1 class="grid_container">
+                    <span class="grid_item">Hi
                         <span>👋</span>
                     </span>
-                    <span>I'm Alexandr,</span>
-                    <span>python-developer</span>
+                    <span class="grid_item">I'm Alexandr,</span>
+                    <span class="grid_item gradient">python-developer</span>
                 </h1>
-                <a href="/#projects">My projects</a>
+                <a href="/#projects" class="grid_item project_button box_button">My projects</a>
             </section>
             <!-- 2 section who am i -->
-            <section>
+            <section id="about" class="p_150">
                 <div>
                     <div>
                         <h2>A few words about
-                            <span>me</span>
+                            <span class="gradient">me</span>
                         </h2>
                         <div>
                             <p>I'm Alexandr, a python developer based in Ekaterinburg (Russia), specializing in front-end and UI/UX design. I'm currently doing a work-study program at Groupe Adonis as a front-end developer.</p>
@@ -47,10 +48,10 @@
                 </div>
             </section>
             <!-- 3 My projects -->
-            <section>
+            <section id="projects" class="p_150">
                 <h2>
                     My latest
-                    <span>projects</span>
+                    <span class="gradient">projects</span>
                 </h2>
                 <ul>
                     <li>
