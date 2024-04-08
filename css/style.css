@@ -8,11 +8,21 @@
         font-style: normal;
 }
 
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('../fonts/ClashDisplay-Bold.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Bold.woff') format('woff'),
+       url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
 
-  font-family: 'ClashDisplay-Semibold';
+  font-family: 'ClashDisplay-Bold';
   font-size: 25px;
   line-height: 30px;
   color: #ffffff;
@@ -31,7 +41,6 @@ body {
     scroll-behavior: smooth;
   }
 }
-
 
 .main{
   width: 100%;
@@ -108,7 +117,6 @@ a {
 .first-section{
   font-size: 43px;
   width: auto;
-  margin-right: 0%;
   height: 400px;
 }
 
@@ -124,12 +132,12 @@ a {
 
 .p_150{
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .project_button{
   box-shadow:
-  0px 10.3px 91.5px  rgba(170, 65, 255, 0.568);
+  0px 10.3px 91.5px  rgb(158, 78, 250);
   width: 200px;
   height: 50px;
   background: #7c3aed;
@@ -151,3 +159,18 @@ a {
 }
 
 /* 2 section */
+
+.grid_container_2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .grid_container_2:last-child{
+    justify-items: end;
+  }
+
+.about{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+}
