@@ -17,14 +17,14 @@ $(function() {
 
         if ($(this).scrollTop() > 300) {
             header.css({
-                'padding': '5px 0',
-                'background': '#f6ffdb',
+                'padd': '5px 0',
+                'background': '#000000',
                 'transition': '.3s'
             });
         } else {
             header.css({
-                'padding': '15px 0',
-                'background': '#ffffff',
+                // 'padding': '15px 0',
+                'background': '#000000',
                 'transition': '.3s'
             });
         }
