@@ -18,6 +18,7 @@
        font-style: normal;
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -43,7 +44,7 @@ body {
 
 .main{
   width: 100%;
-  max-width: 1275px;
+  max-width: 67%;
   margin: 0 auto;
   padding: 0px;
 }
@@ -98,7 +99,6 @@ a {
   flex-flow: row nowrap;
   margin: 0;
   padding: 0;
-  /* padding-right: 20px; */
   list-style: none;
 }
 
@@ -178,7 +178,7 @@ a {
   
 
 .about{
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
 }
 
@@ -212,6 +212,8 @@ a {
 
 .grit_item h3{
   color: #f5f5f5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .border{
@@ -219,15 +221,37 @@ a {
   border-radius: 10px;
 }
 
+.grit_item img {
+  width: 1.5em; 
+  height: auto; 
+  margin-top: 1rem;
+}
+
 /* footer */
 
 footer {
   width: 100%;
-  max-width: 1275px;
+  max-width: 67%;
   margin: 0 auto;
   padding: 0px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
   color: #888888;
+}
+
+.social-icons ul {
+  list-style-type: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем отступы */
+}
+
+.social-icons li {
+  display: inline-block; /* Размещаем элементы списка в одну линию */
+  margin-right: 10px; /* Добавляем небольшой отступ между элементами списка */
+}
+
+.social-icons img {
+  width: 40px; /* Устанавливаем ширину иконок */
+  height: auto; /* Сохраняем пропорции иконок */
+  filter: grayscale(200%); /* Изменяем цвет иконок на серый */
 }
 
