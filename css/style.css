@@ -241,17 +241,17 @@ footer {
 
 .social-icons ul {
   list-style-type: none; 
-  padding: 0; 
+  padding: 0;
 }
 
 .social-icons li {
   display: inline-block; 
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .social-icons img {
-  width: 40px; 
+  width: 2.5em; 
   height: auto;
-  filter: grayscale(200%); 
+  filter: brightness() saturate(100%) invert(42%) sepia(7%) saturate(7%) hue-rotate(9deg) brightness(94%) contrast(95%);
 }
 
